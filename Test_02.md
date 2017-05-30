@@ -20,7 +20,7 @@ $price1->add($price2)->subtract($price3)->add($price4)->multiply(2);
 ```
 
 Wersja z przekompilowanego rozszerzenia:
-```
+```php
 $price1 = new \ISystems\Price\Container(100, 123, 'PLN');
 $price2 = new \ISystems\Price\Container(10, 12.3, 'PLN');
 $price3 = new \ISystems\Price\Container(20, 24.6, 'PLN');
