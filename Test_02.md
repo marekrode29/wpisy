@@ -33,4 +33,4 @@ W każdej iteracji kwoty netto były losowane z przedziału od 10 do 100, dział
 
 ![Performance](http://q.i-systems.pl/file/f42648bd.png "performance")
 
-Różnica kolosalna jeśli pomnożymy to przez ilość obliczeń wykonywanej w koszyku i-sklep.
+Jednak nie kamali: 3-krotnie szybszy kod :)
