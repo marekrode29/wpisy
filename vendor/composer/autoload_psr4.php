@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Donquixote\\Cellbrush\\' => array($vendorDir . '/donquixote/cellbrush/src'),
+    'Ayeo\\Price\\Test\\' => array($vendorDir . '/ayeo/price/tests'),
+    'Ayeo\\Price\\' => array($vendorDir . '/ayeo/price/src'),
     'App\\' => array($baseDir . '/application/src'),
 );

@@ -1,14 +1,10 @@
 <?php
 
-namespace App\File\Func;
+namespace App\Zephir\Func;
 
 abstract class AbstractFunc
 {
-	/**
-	 * @param string $filename
-	 * @return bool
-	 */
-	abstract protected function perform($filename);
+	abstract protected function perform();
 	
 	/**
 	 * @return string
@@ -16,14 +12,13 @@ abstract class AbstractFunc
 	abstract public function getName();
 	
 	/**
-	 * @param string $filename
 	 * @return float|int
 	 */
-	public function run($filename)
+	public function run()
 	{
 		$start = microtime(true);
 		
-		$this->perform($filename);
+		$this->perform();
 		
 		clearstatcache();
 		

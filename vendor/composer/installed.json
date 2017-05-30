@@ -1,25 +1,32 @@
 [
     {
-        "name": "donquixote/cellbrush",
-        "version": "v1.0.5",
-        "version_normalized": "1.0.5.0",
+        "name": "ayeo/price",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/donquixote/cellbrush.git",
-            "reference": "09c70b421828624756e56591de41d5e86030f50e"
+            "url": "https://github.com/ayeo/price.git",
+            "reference": "c0dc18c29ef94547c095e890a5e6cff88353d16e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/donquixote/cellbrush/zipball/09c70b421828624756e56591de41d5e86030f50e",
-            "reference": "09c70b421828624756e56591de41d5e86030f50e",
+            "url": "https://api.github.com/repos/ayeo/price/zipball/c0dc18c29ef94547c095e890a5e6cff88353d16e",
+            "reference": "c0dc18c29ef94547c095e890a5e6cff88353d16e",
             "shasum": ""
         },
-        "time": "2016-05-18T16:51:39+00:00",
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8"
+        },
+        "time": "2016-10-02T19:52:34+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "Donquixote\\Cellbrush\\": "src/"
+                "Ayeo\\Price\\": "src//",
+                "Ayeo\\Price\\Test\\": "tests//"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -28,11 +35,16 @@
         ],
         "authors": [
             {
-                "name": "Andreas Hennings",
-                "email": "andreas@dqxtech.net"
+                "name": "ayeo",
+                "email": "me@ayeo.pl",
+                "homepage": "http://ayeo.pl"
             }
         ],
-        "description": "Library to generate HTML tables.",
-        "homepage": "http://github.com/donquixote/cellbrush"
+        "description": "Simple price model",
+        "homepage": "https://github.com/ayeo/price",
+        "keywords": [
+            "model",
+            "price"
+        ]
     }
 ]

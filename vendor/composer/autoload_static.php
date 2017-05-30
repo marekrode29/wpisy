@@ -7,20 +7,22 @@ namespace Composer\Autoload;
 class ComposerStaticInit93fc5cfcd0d5d355fc106d4f2963b11f
 {
     public static $prefixLengthsPsr4 = array (
-        'D' => 
-        array (
-            'Donquixote\\Cellbrush\\' => 21,
-        ),
         'A' => 
         array (
+            'Ayeo\\Price\\Test\\' => 16,
+            'Ayeo\\Price\\' => 11,
             'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Donquixote\\Cellbrush\\' => 
+        'Ayeo\\Price\\Test\\' => 
         array (
-            0 => __DIR__ . '/..' . '/donquixote/cellbrush/src',
+            0 => __DIR__ . '/..' . '/ayeo/price/tests',
+        ),
+        'Ayeo\\Price\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ayeo/price/src',
         ),
         'App\\' => 
         array (

@@ -4,26 +4,33 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0836381077d5764fc16b72ef4b8173d2",
+    "content-hash": "8a046dbc8905da80a5cc76746f0da65a",
     "packages": [
         {
-            "name": "donquixote/cellbrush",
-            "version": "v1.0.5",
+            "name": "ayeo/price",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/donquixote/cellbrush.git",
-                "reference": "09c70b421828624756e56591de41d5e86030f50e"
+                "url": "https://github.com/ayeo/price.git",
+                "reference": "c0dc18c29ef94547c095e890a5e6cff88353d16e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/donquixote/cellbrush/zipball/09c70b421828624756e56591de41d5e86030f50e",
-                "reference": "09c70b421828624756e56591de41d5e86030f50e",
+                "url": "https://api.github.com/repos/ayeo/price/zipball/c0dc18c29ef94547c095e890a5e6cff88353d16e",
+                "reference": "c0dc18c29ef94547c095e890a5e6cff88353d16e",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Donquixote\\Cellbrush\\": "src/"
+                    "Ayeo\\Price\\": "src//",
+                    "Ayeo\\Price\\Test\\": "tests//"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -32,13 +39,18 @@
             ],
             "authors": [
                 {
-                    "name": "Andreas Hennings",
-                    "email": "andreas@dqxtech.net"
+                    "name": "ayeo",
+                    "email": "me@ayeo.pl",
+                    "homepage": "http://ayeo.pl"
                 }
             ],
-            "description": "Library to generate HTML tables.",
-            "homepage": "http://github.com/donquixote/cellbrush",
-            "time": "2016-05-18T16:51:39+00:00"
+            "description": "Simple price model",
+            "homepage": "https://github.com/ayeo/price",
+            "keywords": [
+                "model",
+                "price"
+            ],
+            "time": "2016-10-02T19:52:34+00:00"
         }
     ],
     "packages-dev": [],
