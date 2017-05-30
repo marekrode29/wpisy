@@ -1,6 +1,6 @@
 # ```Zephir```
 
-Niedawno odwiedziłem stronę: https://zephir-lang.com/ Oddaję głos z dokumentacji:
+Niedawno odwiedziłem stronę: https://zephir-lang.com/
 
 > PHP is one of the most popular languages in use for the development of web applications. Dynamically typed and interpreted languages like PHP offer very high productivity due to their flexibility.
   Since version 4 and then 5, PHP is based on the Zend Engine implementation. This is a virtual machine that executes the PHP code from its bytecode representation. Zend Engine is almost present in every PHP installation in the world, with Zephir, you can create extensions for PHP running under the Zend Engine.

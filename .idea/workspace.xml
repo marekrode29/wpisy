@@ -2,79 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e395b0-77e9-42d9-9b83-77049ff12344" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test_02.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/public/php.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/Zephir/Func/AbstractFunc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/Zephir/Func/Php.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/Zephir/Func/Zephir.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/Zephir/Slug.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/phpunit.xml.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Axis/Axis.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Axis/DynamicAxis.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Axis/Range.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Axis/RangeInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Axis/SimpleRange.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/BuildContainer/BuildContainer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/BuildContainer/BuildContainerBase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Cell/Cell.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Cell/CellInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Cell/PlaceholderCell.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Cell/ShadowCell.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Columns/ColumnClasses.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Columns/ColumnClassesInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Columns/ColumnClassesTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Columns/TableColumns.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Columns/TableColumnsInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Columns/TableColumnsTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Handle/RowHandle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Handle/SectionColHandle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Handle/TableColHandle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/Attributes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/AttributesBuilderInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/AttributesGetterInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/AttributesInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/AttributesTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/Element.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/ElementInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/Multiple/AttributesMapBase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/Multiple/DynamicAttributesMap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/Multiple/StaticAttributesMap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/MutableAttributes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/MutableAttributesBuilderInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/MutableAttributesInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/MutableAttributesTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/Tag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Html/TagInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Matrix/CellMatrix.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/MiniContainer/MiniContainerBase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/MiniContainer/MiniContainerException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/TSection/TableRows.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/TSection/TableRowsInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/TSection/TableSection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/TSection/TableSectionInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/TSection/TableSectionStructureInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Table/TBodyWrapper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Table/Table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Table/TableInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/src/Util.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/tests/src/AttributesMapTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/tests/src/CellMatrixTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/tests/src/CellbrushTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/tests/src/HierarchyTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/donquixote/cellbrush/tests/src/TableSectionTest.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/public/index.php" afterPath="$PROJECT_DIR$/application/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/File/Func/AbstractFunc.php" afterPath="$PROJECT_DIR$/application/src/File/Func/AbstractFunc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test_02.md" afterPath="$PROJECT_DIR$/Test_02.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -139,8 +67,8 @@
         <entry file="file://$PROJECT_DIR$/Test_02.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -496,12 +424,12 @@
       <workItem from="1496118341730" duration="140000" />
       <workItem from="1496118980817" duration="3843000" />
       <workItem from="1496144048443" duration="5934000" />
-      <workItem from="1496167283281" duration="3262000" />
+      <workItem from="1496167283281" duration="3298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20729000" />
+    <option name="totallyTimeSpent" value="20765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="964" extended-state="6" />
@@ -940,8 +868,8 @@
     <entry file="file://$PROJECT_DIR$/Test_02.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
             <folding />
           </first_editor>
           <second_editor />
